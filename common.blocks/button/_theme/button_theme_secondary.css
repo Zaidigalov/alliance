@@ -1,0 +1,20 @@
+.button_theme_secondary {
+  background: var(--black);
+  color: var(--white);
+  border: none;
+  outline: 0;
+}
+
+/*   .button_theme_secondary.button_hovered{
+    background: var(--Dark, #0D0D0D);
+    color: var(--White, #FFF);
+  }
+  .button_theme_secondary.button_pressed{
+    background: var(--Dark-Grey, #282828);
+    color: var(--White, #FFF);
+  }
+  .button_theme_secondary.button_disabled{
+    background: var(--dark-10, rgba(13, 13, 13, 0.10));
+    cursor: auto;
+    pointer-events: none;
+  } */

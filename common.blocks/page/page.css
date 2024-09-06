@@ -1,0 +1,32 @@
+:root {
+	--black: #0B0B0B;
+	--white: #ffffff;
+	--light-yellow: #FFD550;
+	--yellow: #FFB629;
+	--ex-light-gray: #f7f7f7;
+	--light-gray: #f2f2f2;
+	--normal-gray: #b3b3b3;
+	--medium-gray: #808080;
+	--dark-gray: #4d4d4d;
+	--red: #fc0000;
+}
+
+.page {
+	font-family: "Rubic", system-ui;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.link {
+	color: inherit;
+	text-decoration: none;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}

@@ -1,0 +1,45 @@
+.hero {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	padding: 100px 0 118px;
+	background:
+		linear-gradient(90deg, rgba(0, 0, 0, 0.1966) 0%, rgba(255, 255, 255, 0) 100%),
+		url("../../images/hero.jpeg");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__description {
+		padding-bottom: 16px;
+	}
+
+	&__title {
+		max-width: 710px;
+		color: var(--white);
+		margin: 0;
+		line-height: 71px;
+		padding-bottom: 16px;
+	}
+
+	&__text {
+		max-width: 590px;
+		color: var(--white);
+		margin: 0;
+		padding-bottom: 16px;
+	}
+
+	&__button {
+		width: 198px;
+		padding-bottom: 32px;
+	}
+
+}

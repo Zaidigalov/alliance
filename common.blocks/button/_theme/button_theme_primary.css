@@ -1,0 +1,22 @@
+.button_theme_primary {
+  background: var(--yellow);
+  color: var(--black);
+  border: none;
+  outline: 0;
+  transition: background 0.2s ease-in-out;
+
+}
+
+.button_theme_primary.button_hovered {
+  background: var(--light-yellow);
+}
+
+/* .button_theme_primary.button_pressed {
+  background: var(--Red-Active, #FF4B32);
+}
+
+.button_theme_primary.button_disabled {
+  background: var(--dark-10, rgba(13, 13, 13, 0.10));
+  cursor: auto;
+  pointer-events: none;
+} */

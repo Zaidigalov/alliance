@@ -1,0 +1,15 @@
+.description {
+	height: 20px;
+	display: inline-flex;
+
+	&__decor {
+		width: 4px;
+		height: 100%;
+		background-color: var(--yellow);
+	}
+
+	&__body {
+		height: 100%;
+		padding: 0 8px;
+	}
+}

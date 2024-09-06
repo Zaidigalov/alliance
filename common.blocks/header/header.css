@@ -1,0 +1,31 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: var(--black);
+	color: var(--white);
+
+	&__top {
+		height: 120px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__menu {
+		width: 100%;
+
+	}
+
+	@media (max-width: 640px) {
+		height: 60px;
+	}
+
+	/* 	&_size {
+
+		&_large {}
+
+		&_small {}
+	} */
+}

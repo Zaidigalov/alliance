@@ -1,0 +1,20 @@
+.contacts_theme_dark {
+	.contact__time {
+		.contact__image {
+			background: url(../../../icons/time-dark.svg) no-repeat;
+		}
+	}
+
+	.contact__mail {
+		.contact__image {
+			background: url(../../../icons/mail-dark.svg) no-repeat;
+		}
+	}
+
+	.contact__phone {
+		.contact__image {
+			background: url(../../../icons/phone-dark.svg) no-repeat;
+		}
+	}
+
+}

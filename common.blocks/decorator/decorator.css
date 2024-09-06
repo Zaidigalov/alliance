@@ -1,0 +1,23 @@
+.decorator {
+
+	$space-xxs: 0.25rem;
+	$space-xs: 0.5rem;
+	$space-s: 0.75rem;
+	$space-m: 1rem;
+	$space-l: 1.25rem;
+	$space-xl: 1.5rem;
+	$space-2xl: 2rem;
+	$space-3xl: 2.5rem;
+	$space-4xl: 3rem;
+	$space-5xl: 3.5rem;
+	$space-6xl: 4rem;
+	$space-7xl: 4.5rem;
+	$space-8xl: 5rem;
+
+	&_shadow {
+		-webkit-box-shadow: 0px 4px 20px 0px rgba(136, 136, 136, 0.15);
+		-moz-box-shadow: 0px 4px 20px 0px rgba(136, 136, 136, 0.15);
+		box-shadow: 0px 4px 20px 0px rgba(136, 136, 136, 0.15);
+	}
+
+}

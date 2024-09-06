@@ -1,0 +1,39 @@
+.contacts {
+	display: flex;
+	gap: 24px;
+
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+
+
+	.contact__image {
+		width: 64px;
+		aspect-ratio: 1;
+	}
+
+
+
+}
+
+
+.contact_theme_dark.contact__time {
+	.contact__image {
+		background: url(../../icons/time-dark.svg) no-repeat;
+	}
+}
+
+.contact_theme_dark.contact__mail {
+	.contact__image {
+		background: url(../../icons/mail-dark.svg) no-repeat;
+	}
+}
+
+.contact_theme_dark.contact__phone {
+	.contact__image {
+		background: url(../../icons/phone-dark.svg) no-repeat;
+	}
+}

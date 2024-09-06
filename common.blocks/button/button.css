@@ -1,0 +1,25 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Rubic", system-ui;
+	font-size: 1rem;
+	font-weight: 600;
+	width: 100%;
+	cursor: pointer;
+	transition: background 0.2s;
+
+	&_size {
+		&_large {
+			height: 60px;
+		}
+
+		&_medium {
+			height: 48px;
+		}
+
+		&_small {
+			height: 40px;
+		}
+	}
+}

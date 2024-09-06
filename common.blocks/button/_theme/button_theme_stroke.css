@@ -1,0 +1,22 @@
+.button_theme_stroke {
+  background: var(--white);
+  color: var(--black);
+  border: 1px solid var(--light-gray);
+  outline: 0;
+}
+
+/* .button_theme_stroke.button_hovered {
+  background: var(--Red, #FF1F00);
+  border: 2px solid var(--Red, #FF1F00);
+}
+
+.button_theme_stroke.button_pressed {
+  background: var(--Red-Active, #FF4B32);
+  border: 2px solid var(--Red-Active, #FF4B32);
+}
+
+.button_theme_stroke.button_disabled {
+  background: var(--dark-10, rgba(13, 13, 13, 0.10));
+  cursor: auto;
+  pointer-events: none;
+} */
