@@ -72,8 +72,8 @@ block("contacts")(
                                 content: "Телефон",
                             },
                             {
-                                blok: "link",
-                                url: "tel:+7 (495) 222-22-00",
+                                block: "link",
+                                url: "tel:84952222200",
                                 content: "+7 (495) 222-22-00",
                             },
                         ],

@@ -16,7 +16,7 @@ block("hero")(
                     },
                     {
                         elem: "title",
-                        mix: { block: "title" },
+                        mix: { block: "title", mods: { type: "h1" } },
                         tag: "h1",
                         content: [
                             "Аренда спецтехники",

@@ -1,7 +1,20 @@
 .title {
+	font-family: "Rubik", system-ui;
 
-	Font-family: "Rubic", system-ui;
-	font-weight: 700;
-	Font-size: 3.75rem;
+	&_type {
+		&_h1 {
+			font-weight: 700;
+			font-size: 3.75rem;
+		}
 
+		&_h2 {
+			font-weight: 600;
+			font-size: 2rem;
+		}
+
+		&_h3 {
+			font-weight: 600;
+			font-size: 1.5rem;
+		}
+	}
 }

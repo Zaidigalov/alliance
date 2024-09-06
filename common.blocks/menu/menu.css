@@ -29,6 +29,10 @@
 		padding-inline-start: 0;
 	}
 
+	&__item {
+		padding-bottom: 3px;
+	}
+
 	&__button {
 		border: none;
 		background: none;

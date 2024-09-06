@@ -97,6 +97,7 @@ block("menu")(
                                 },
                             },
                             {
+                                elem: "link",
                                 tag: "a",
                                 attrs: {
                                     href: "/",
