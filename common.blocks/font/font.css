@@ -40,7 +40,6 @@
 	}
 
 
-
 	/*weight*/
 	&_weight_regular {
 		font-weight: 400;
@@ -58,8 +57,41 @@
 		font-weight: 700;
 	}
 
-	&_family {
-		font-family: "Rubik", system-ui;
+
+
+	&_body_16B {
+		font-weight: 600;
+		font-size: 1rem;
+	}
+
+	&_body_16R {
+		font-weight: 400;
+		font-size: 1rem;
+	}
+
+	&_body_16I {
+		font-style: italic;
+		font-size: 1rem;
+	}
+
+	&_body_14M {
+		font-weight: 500;
+		font-size: 0.875rem;
+	}
+
+	&_body_14R {
+		font-weight: 400;
+		font-size: 0.875rem;
+	}
+
+	&_text_12SB {
+		font-weight: 600;
+		font-size: 0.75rem;
+	}
+
+	&_text_12R {
+		font-weight: 400;
+		font-size: 0.75rem;
 	}
 
 }

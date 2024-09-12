@@ -20,8 +20,8 @@ block("menu")(
                                     content: {
                                         elem: "button",
                                         tag: "button",
-                                        content: "Главная",
-                                    },
+                                        content: "Главная"
+                                    }
                                 },
                                 {
                                     elem: "item",
@@ -29,8 +29,8 @@ block("menu")(
                                     content: {
                                         elem: "button",
                                         tag: "button",
-                                        content: "Аренда",
-                                    },
+                                        content: "Аренда"
+                                    }
                                 },
                                 {
                                     elem: "item",
@@ -38,8 +38,8 @@ block("menu")(
                                     content: {
                                         elem: "button",
                                         tag: "button",
-                                        content: "Услуги",
-                                    },
+                                        content: "Услуги"
+                                    }
                                 },
                                 {
                                     elem: "item",
@@ -50,9 +50,9 @@ block("menu")(
                                         url: "/",
                                         content: "О компании",
                                         attrs: {
-                                            href: "/",
-                                        },
-                                    },
+                                            href: "/"
+                                        }
+                                    }
                                 },
                                 {
                                     elem: "item",
@@ -60,8 +60,8 @@ block("menu")(
                                     content: {
                                         elem: "button",
                                         tag: "button",
-                                        content: "Информация",
-                                    },
+                                        content: "Информация"
+                                    }
                                 },
                                 {
                                     elem: "item",
@@ -71,12 +71,12 @@ block("menu")(
                                         elem: "button",
                                         content: "Контакты",
                                         attrs: {
-                                            href: "/",
-                                        },
-                                    },
-                                },
-                            ],
-                        },
+                                            href: "/"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
                     },
                     {
                         elem: "networks",
@@ -86,47 +86,47 @@ block("menu")(
                                 tag: "a",
                                 attrs: {
                                     href: "/",
-                                    target: "_blank",
+                                    target: "_blank"
                                 },
                                 content: {
                                     elem: "icon",
                                     tag: "img",
                                     attrs: {
-                                        src: "../../icons/instagram-black.svg",
-                                    },
-                                },
+                                        src: "../../icons/instagram-black.svg"
+                                    }
+                                }
                             },
                             {
                                 elem: "link",
                                 tag: "a",
                                 attrs: {
                                     href: "/",
-                                    target: "_blank",
+                                    target: "_blank"
                                 },
                                 content: {
                                     elem: "icon",
                                     tag: "img",
                                     attrs: {
-                                        src: "../../icons/whatsapp-black.svg",
-                                    },
-                                },
+                                        src: "../../icons/whatsapp-black.svg"
+                                    }
+                                }
                             },
                             {
                                 elem: "link",
                                 tag: "a",
                                 attrs: {
                                     href: "/",
-                                    target: "_blank",
+                                    target: "_blank"
                                 },
                                 content: {
                                     elem: "icon",
                                     tag: "img",
                                     attrs: {
-                                        src: "../../icons/telegram-black.svg",
-                                    },
-                                },
-                            },
-                        ],
+                                        src: "../../icons/telegram-black.svg"
+                                    }
+                                }
+                            }
+                        ]
                     },
                     {
                         elem: "button",
@@ -135,13 +135,13 @@ block("menu")(
                             block: "button",
                             mods: {
                                 theme: "primary",
-                                size: "large",
+                                size: "large"
                             },
-                            content: "Заказать звонок",
-                        },
-                    },
-                ],
-            },
+                            content: "Заказать звонок"
+                        }
+                    }
+                ]
+            }
         ];
     })
 );

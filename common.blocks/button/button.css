@@ -2,24 +2,31 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	gap: 12px;
 	font-family: "Rubik", system-ui;
 	font-size: 1rem;
 	font-weight: 600;
 	width: 100%;
 	cursor: pointer;
-	transition: background 0.2s;
+	border: none;
+	transition: background 0.2s, border 0.2s;
 
 	&_size {
-		&_large {
+		&_l {
 			height: 60px;
 		}
 
-		&_medium {
+		&_m {
 			height: 48px;
 		}
 
-		&_small {
+		&_s {
 			height: 40px;
 		}
 	}
+}
+
+.button img {
+	width: 22px;
+	height: 22px;
 }

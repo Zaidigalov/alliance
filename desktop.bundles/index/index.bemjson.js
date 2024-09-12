@@ -27,7 +27,11 @@ module.exports = {
         {
             block: "main",
             tag: "main",
-            content: [{ block: "hero" }, { block: "stages" }],
+            content: [
+                { block: "hero" },
+                { block: "stages" },
+                { block: "rent" },
+            ],
         },
     ],
 };

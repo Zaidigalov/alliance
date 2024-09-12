@@ -5,9 +5,9 @@
 	--yellow: #FFB629;
 	--ex-light-gray: #f7f7f7;
 	--light-gray: #f2f2f2;
-	--normal-gray: #b3b3b3;
-	--medium-gray: #808080;
-	--dark-gray: #4d4d4d;
+	--normal-gray: rgba(0, 0, 0, 0.3);
+	--medium-gray: rgba(0, 0, 0, 0.5);
+	--dark-gray: rgba(0, 0, 0, 0.7);
 	--red: #fc0000;
 }
 
