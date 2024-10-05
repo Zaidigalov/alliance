@@ -1,0 +1,62 @@
+.card-rent {
+	position: relative;
+	max-width: 282px;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	padding: 12px;
+	display: flex;
+	align-items: end;
+
+	&__background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: -1;
+	}
+
+	&__overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: grid;
+		place-items: center;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		background: rgb(0, 0, 0);
+		background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9248949579831933) 34%, rgba(255, 255, 255, 0) 100%);
+		color: var(--white);
+		text-decoration: none;
+		font-weight: 600;
+		opacity: 0;
+		transition: opacity 0.2s;
+	}
+
+	&:hover &__overlay {
+		opacity: 1;
+	}
+
+	&__title {
+		position: relative;
+		z-index: 1;
+		font-size: 20px;
+		font-weight: 500;
+		color: var(--white);
+		text-decoration: none;
+		display: block;
+	}
+
+	&__price {
+		position: relative;
+		z-index: 1;
+		font-size: 16px;
+		font-weight: 600;
+		color: var(--yellow);
+		text-decoration: none;
+		display: block;
+	}
+}

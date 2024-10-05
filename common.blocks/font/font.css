@@ -1,4 +1,6 @@
 .font {
+	line-height: 140%;
+
 	&_size_xs {
 		font-size: 0.75rem;
 		/* 12px */
@@ -87,11 +89,13 @@
 	&_text_12SB {
 		font-weight: 600;
 		font-size: 0.75rem;
+		line-height: 120%;
 	}
 
 	&_text_12R {
 		font-weight: 400;
 		font-size: 0.75rem;
+		line-height: 120%;
 	}
 
 }

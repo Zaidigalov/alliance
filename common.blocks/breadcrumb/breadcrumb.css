@@ -1,0 +1,48 @@
+.breadcrumb {
+	position: relative;
+	color: var(--normal-gray);
+	transition: color 0.2s;
+	cursor: pointer;
+	font-size: 0.75rem;
+
+	&:not(.breadcrumb_theme_active):hover {
+		color: var(--yellow);
+	}
+
+	&:not(.breadcrumb_theme_active)::after {
+		position: absolute;
+		top: -3px;
+		right: -12px;
+		transform: translateY(55%);
+		content: "";
+		display: block;
+		width: 6px;
+		height: 10px;
+		background-image: url(../../icons/mark.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		filter: contrast(0%) brightness(1.4);
+		transition: opacity 0.2s;
+	}
+
+	&:not(.breadcrumb_theme_active)::before {
+		position: absolute;
+		top: -3px;
+		right: -12px;
+		transform: translateY(55%);
+		content: "";
+		display: block;
+		width: 6px;
+		height: 10px;
+		background-image: url(../../icons/mark-yellow.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	&:hover {
+		&::after {
+			opacity: 0;
+		}
+	}
+
+}

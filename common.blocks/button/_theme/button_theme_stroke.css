@@ -1,5 +1,5 @@
 .button_theme_stroke {
-  background: var(--white);
+  background: transparent;
   color: var(--black);
   border: 1px solid var(--light-gray);
   outline: 0;

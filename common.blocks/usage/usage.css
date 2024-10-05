@@ -1,0 +1,19 @@
+.usage {
+	position: relative;
+	background-color: var(--light-yellow);
+	padding: clamp(24px, 4vw, 40px);
+	min-height: 168px;
+	box-sizing: border-box;
+
+	&__text {
+		position: relative;
+		z-index: 1;
+	}
+
+	&__image {
+		position: absolute;
+		bottom: 0;
+		right: 8px;
+		width: clamp(140px, 15vw, 168px);
+	}
+}

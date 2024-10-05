@@ -1,0 +1,78 @@
+.card-popular {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	max-width: 282px;
+	padding: 12px 24px;
+	box-sizing: border-box;
+
+	&__image-wrapper {
+		position: relative;
+		max-width: 234px;
+		max-height: 140px;
+	}
+
+	&__top {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+	}
+
+	&__quantity {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background: rgb(0, 0, 0);
+		background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(84, 84, 84, 1) 100%);
+		color: var(--white);
+		padding: 8px;
+		border-radius: 30px;
+	}
+
+	&__prices {
+		display: grid;
+		grid-template-columns: auto auto;
+		align-items: baseline;
+		gap: 4px;
+	}
+
+	&__old-price {
+		color: #7a7a7a;
+		text-decoration: line-through;
+	}
+
+	&__current-price {
+		color: var(--yellow);
+	}
+
+	&__price-by-shift {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		color: var(--yellow);
+	}
+
+	&__bottom {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	&__mass,
+	&__power,
+	&__capacity {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__button {
+		align-self: center;
+		width: 170px;
+	}
+
+	@media screen and (hover:hover) {
+
+		&:hover {
+			background-color: var(--ex-light-gray);
+		}
+	}
+}

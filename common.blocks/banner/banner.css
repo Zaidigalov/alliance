@@ -1,0 +1,190 @@
+.banner {
+	container-type: inline-size;
+	max-width: 1120px;
+
+	&__wrapper {
+		position: relative;
+		overflow: hidden;
+		display: grid;
+		grid-template-columns: auto auto 215px;
+		grid-template-areas:
+			"percent title button"
+			"percent text button";
+		padding: 36px 24px;
+		background: rgb(0, 0, 0);
+		background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(84, 84, 84, 1) 100%);
+		color: var(--white);
+	}
+
+
+	&__decor {
+		position: absolute;
+		width: -webkit-fill-available;
+		height: -webkit-fill-available;
+		top: -51px;
+		left: -63px;
+		background: url("../../images/banner-decor.svg") no-repeat left top;
+	}
+
+	&__percent {
+		position: relative;
+		z-index: 1;
+		grid-area: percent;
+		font-family: "Allerta Stencil", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 121px;
+		line-height: 80%;
+		padding-left: 40px;
+		align-self: center;
+	}
+
+	&__title {
+		position: relative;
+		z-index: 1;
+		grid-area: title;
+		justify-self: end;
+		padding-bottom: 20px;
+		max-width: 425px;
+	}
+
+	&__text {
+		position: relative;
+		z-index: 1;
+		grid-area: text;
+		justify-self: end;
+		max-width: 425px;
+	}
+
+	&__button {
+		grid-area: button;
+		justify-self: end;
+		align-self: end;
+		width: 215px;
+	}
+}
+
+@container (max-width:1117px) {
+	.banner {
+
+		&__wrapper {
+			grid-template-columns: 433px auto;
+			grid-template-areas:
+				"percent title"
+				"percent text"
+				"percent button";
+		}
+
+		&__decor {
+			top: -86px;
+			left: -372px;
+			background: url("../../images/banner-decor-big.svg") no-repeat left top;
+		}
+
+
+		&__percent {
+			font-size: 141px;
+		}
+
+		&__title {
+			padding-bottom: 10px;
+			justify-self: start;
+		}
+
+		&__text {
+			max-width: none;
+			padding-bottom: 15px;
+		}
+
+
+		&__button {
+			justify-self: start;
+		}
+	}
+}
+
+@container (max-width:906px) {
+	.banner {
+
+		&__wrapper {
+			grid-template-columns: auto;
+			grid-template-areas:
+				"percent"
+				"title"
+				"text"
+				"button";
+			padding: 32px 16px;
+		}
+
+		&__decor {
+			top: -196px;
+			left: -88px;
+		}
+
+		&__percent {
+			font-size: 141px;
+			padding-bottom: 100px;
+		}
+
+		&__title {
+			padding-bottom: 24px;
+			justify-self: center;
+			text-align: center;
+		}
+
+		&__text {
+			max-width: none;
+			padding-bottom: 24px;
+			justify-self: center;
+			text-align: center;
+		}
+
+		&__button {
+			justify-self: center;
+		}
+	}
+}
+
+@container (max-width:360px) {
+	.banner {
+
+		&__wrapper {
+			grid-template-columns: auto;
+			grid-template-areas:
+				"percent"
+				"title"
+				"text"
+				"button";
+			padding: 32px 16px;
+		}
+
+		&__decor {
+			top: -70px;
+			left: -100px;
+			background: url("../../images/banner-decor.svg") no-repeat left top;
+		}
+
+		&__percent {
+			font-size: 121px;
+			padding-left: 0;
+			padding-bottom: 100px;
+		}
+
+		&__title {
+			padding-bottom: 24px;
+			justify-self: center;
+			text-align: center;
+		}
+
+		&__text {
+			max-width: none;
+			padding-bottom: 24px;
+			justify-self: center;
+			text-align: center;
+		}
+
+		&__button {
+			justify-self: center;
+		}
+	}
+}

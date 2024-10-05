@@ -1,0 +1,53 @@
+.accordion {
+	background-color: antiquewhite;
+
+	&__question {
+		position: relative;
+		cursor: pointer;
+		padding: 16px 0;
+	}
+
+	&__question::before,
+	&__question::after {
+		position: absolute;
+		top: 50%;
+		right: 7px;
+		transform: translateY(-50%) rotate(0deg);
+		content: "";
+		display: block;
+		width: 23px;
+		height: 12px;
+		background-repeat: no-repeat;
+		background-position: center;
+		transition: transform 0.2s, opacity 0.2s;
+	}
+
+	&__question::before {
+		background-image: url(../../icons/mark-yellow_big.svg);
+	}
+
+	&__question::after {
+		background-image: url(../../icons/mark_big.svg);
+		opacity: 1;
+	}
+
+	&__answer {
+		overflow: hidden;
+		height: 0px;
+		transition: height 0.2s;
+	}
+}
+
+.accordion_visible {
+	padding-bottom: 16px;
+
+	.accordion__question::before,
+	.accordion__question::after {
+		transform: translateY(-50%) rotate(-180deg);
+		transition: transform 0.3s, opacity 0.2s;
+	}
+
+	.accordion__question::after {
+		opacity: 0;
+	}
+}

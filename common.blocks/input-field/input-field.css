@@ -1,0 +1,9 @@
+.input-field {
+  position: relative;
+  /* width: 100%; */
+
+  .input__control {
+    width: 100%;
+  }
+
+}

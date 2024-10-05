@@ -1,3 +1,3 @@
-block('arrow').content()(function() {
-    return;
+block("arrow").content()(function () {
+    return {};
 });

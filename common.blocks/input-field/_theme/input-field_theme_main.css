@@ -1,0 +1,47 @@
+.input-field_theme_main {
+  display: inline-block;
+  border: 1px solid var(--medium-gray);
+  border-radius: 4px;
+
+  & .input__control {
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0;
+    outline: 0;
+    background: #FFFFFF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+    width: 100%;
+    height: 100%;
+    padding: 16px 24px;
+  }
+
+  input::placeholder {
+    opacity: 0.4;
+  }
+
+  .input-field__button {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+  }
+}
+
+.input-field_disabled {
+  border: 1px solid var(--normal-gray);
+}
+
+.input-field_theme_main.input_hovered {}
+
+.input-field_theme_main.input_focused {
+  border: 1px solid var(--black);
+}
+
+.input-field_theme_main.input_novalid {
+  border: 1px solid var(--red);
+}

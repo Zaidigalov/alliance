@@ -1,0 +1,9 @@
+.arrow_theme_primary {
+	background-color: var(--yellow);
+	background-image: url(../../../icons/arrow.svg);
+
+
+	&:hover {
+		background-color: var(--light-yellow);
+	}
+}

@@ -6,7 +6,6 @@
 	font-family: "Rubik", system-ui;
 	font-size: 1rem;
 	font-weight: 600;
-	width: 100%;
 	cursor: pointer;
 	border: none;
 	transition: background 0.2s, border 0.2s;
