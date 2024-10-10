@@ -1,18 +1,18 @@
 .contacts_theme_dark {
-	.contact__time {
-		.contact__image {
+	.contacts__time {
+		.contacts__image {
 			background: url(../../../icons/time-dark.svg) no-repeat;
 		}
 	}
 
-	.contact__mail {
-		.contact__image {
+	.contacts__mail {
+		.contacts__image {
 			background: url(../../../icons/mail-dark.svg) no-repeat;
 		}
 	}
 
-	.contact__phone {
-		.contact__image {
+	.contacts__phone {
+		.contacts__image {
 			background: url(../../../icons/phone-dark.svg) no-repeat;
 		}
 	}

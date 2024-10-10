@@ -2,38 +2,30 @@
 	display: flex;
 	gap: 24px;
 
-}
+	&__contact {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
 
-.contact {
-	display: flex;
-	align-items: center;
-	gap: 16px;
-
-
-	.contact__image {
+	&__image {
 		width: 64px;
 		aspect-ratio: 1;
+		flex-shrink: 0;
 	}
 
+	.link {
+		white-space: nowrap;
 
-
-}
-
-
-.contact_theme_dark.contact__time {
-	.contact__image {
-		background: url(../../icons/time-dark.svg) no-repeat;
+		@media (max-width: 530px) {
+			white-space: normal;
+		}
 	}
-}
 
-.contact_theme_dark.contact__mail {
-	.contact__image {
-		background: url(../../icons/mail-dark.svg) no-repeat;
-	}
-}
+	/* &__time {
+		@media (max-width: 1143px) {
+			display: none;
+		}
+	} */
 
-.contact_theme_dark.contact__phone {
-	.contact__image {
-		background: url(../../icons/phone-dark.svg) no-repeat;
-	}
 }

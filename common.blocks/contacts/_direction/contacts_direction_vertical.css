@@ -1,0 +1,16 @@
+.contacts_direction_vertical {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
+	&__contact {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+
+	&__image {
+		width: 64px;
+		aspect-ratio: 1;
+	}
+}

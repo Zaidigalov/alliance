@@ -46,6 +46,7 @@ module.exports = {
     ],
     scripts: [{ elem: "js", url: "ui.min.js" }],
     content: [
+        /* 
         { block: "title", mods: { type: "h1_desktop" }, tag: "h1", content: "Заголовок десктоп h1" },
         { block: "title", mods: { type: "h1_mobile" }, tag: "h1", content: "Заголовок мобилка h1" },
         { block: "title", mods: { type: "h2" }, tag: "h2", content: "Заголовок h2" },
@@ -195,6 +196,18 @@ module.exports = {
 
         { tag: "hr" },
 
-        { block: "banner" }
+        { block: "banner" },
+
+        { tag: "hr" }, */
+
+        { block: "header" },
+
+        /* { tag: "br" },
+
+        { block: "footer" } */
+
+        { tag: "br" }
+
+        /* { block: "contacts", mods: { theme: "dark" } } */
     ]
 };

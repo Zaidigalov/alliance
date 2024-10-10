@@ -3,28 +3,46 @@ block("contacts")(
     content()(function () {
         return [
             {
-                elem: "contact",
+                block: "contact",
                 mix: { elem: "time" },
+
                 content: [
-                    { elem: "image" },
                     {
+                        elem: "image"
+                    },
+                    {
+                        tag: "div",
                         elem: "text",
                         content: [
-                            { tag: "p", content: "Режим работы" },
-                            { tag: "p", content: "ПН - ВС 9.00 - 18.00" }
+                            {
+                                tag: "p",
+                                content: "Режим работы"
+                            },
+                            {
+                                tag: "p",
+                                content: "ПН - ВС 9.00 - 18.00"
+                            }
                         ]
                     }
                 ]
             },
+
             {
-                elem: "contact",
+                block: "contact",
+                /* mods: { theme: "dark" }, */
                 mix: { elem: "mail" },
                 content: [
-                    { elem: "image" },
                     {
+                        elem: "image"
+                    },
+                    {
+                        tag: "div",
                         elem: "text",
                         content: [
-                            { tag: "p", content: "Почта" },
+                            {
+                                tag: "p",
+                                content: "Почта"
+                            },
                             {
                                 block: "link",
                                 url: "mailto:contact@alliance-group.tech",
@@ -34,15 +52,23 @@ block("contacts")(
                     }
                 ]
             },
+
             {
-                elem: "contact",
+                block: "contact",
+                /* mods: { theme: "dark" }, */
                 mix: { elem: "phone" },
                 content: [
-                    { elem: "image" },
                     {
+                        elem: "image"
+                    },
+                    {
+                        tag: "div",
                         elem: "text",
                         content: [
-                            { tag: "p", content: "Телефон" },
+                            {
+                                tag: "p",
+                                content: "Телефон"
+                            },
                             {
                                 block: "link",
                                 url: "tel:84952222200",
